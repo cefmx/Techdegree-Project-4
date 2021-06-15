@@ -5,10 +5,19 @@ $white: #fff;
 $color-primary: #777;
 $lightgreen: #58e1c1;
 $cyan: #51ddfc; 
-$color-border: #58e1c1;
+$color-border: #ccc; 
 
-
+ 
 // Media query breakpoints
 
-$break-narrow: '(max-width: 768px)';
+$break-narrow: '(min-width: 768px)';
+
+
+// Button colors
+
+// Button hover
+
+$btn-hover-lighten: lighten($cyan, 15%);
+
+
 
