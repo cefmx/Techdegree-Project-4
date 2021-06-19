@@ -1,7 +1,10 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media #{$break-narrow} {
+
+
+//768px 
+@media (min-width: $break-w) {
 
     .container {
       max-width: 1400px;
@@ -79,16 +82,8 @@
       flex-basis: 100%;
     }
     
-    .nav {
-      flex-direction: row;
-      justify-content: flex-end;
-      align-items: center;
-    }
-    
-    .nav-link {
-      flex-basis: 100px;
-    }
-    
+  }
+
     .btn {
       padding: 10px 30px;
     }
@@ -102,4 +97,11 @@
       margin-right: initial;
     }
     
+    .nav {
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      &-link {
+          flex-basis: 100px;
+      }
     }

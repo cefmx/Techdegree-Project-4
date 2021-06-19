@@ -1,23 +1,46 @@
-
-// Colors
-
+/* ============================================= */
+/*                 Variables                     */
+/* ============================================= */
+// Color
 $white: #fff;
 $color-primary: #777;
 $lightgreen: #58e1c1;
 $cyan: #51ddfc; 
 $color-border: #ccc; 
 
+
+// Width
+$max: 100%; 
  
-// Media query breakpoints
 
-$break-narrow: '(min-width: 768px)';
+// Media query breakpoint
+$break-w: 768px;
+
+// Typography 
+$font-300: 300; // font weight
+$font-700: 700;
+
+// Button color
+$btn-d: $cyan;
+$btn-e: #e4757a;
+$btn-i: #927bc1;
+$btn-s: #63cc82;
+$btn-w: #fd7856;
 
 
-// Button colors
-
-// Button hover
-
-$btn-hover-lighten: lighten($cyan, 15%);
-
-
+// Col color
+$col-color: (
+    1: #927bc1,
+    2: #fd7856,
+    3: #deb2ee,
+    4: #7ee6fd,
+    5: #88d9a0,
+    6: #4da2bb,
+    7: #ec9fa3,
+    8: #fd9f85,
+    9: #e4757a,
+    10: #63cc82,
+    11: $cyan,
+    12: #80e8d1,
+  );
 
