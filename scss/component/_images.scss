@@ -2,16 +2,18 @@
 /*                   Images                      */
 /* ============================================= */
 
-.img {
+img {
   @include disp;
   max-width: $max; 
   margin-top: 10px;
-  &-avatar {
+  &.img-avatar {
     max-height: $max;
   }
-  &-frame {
+  &.img-frame {
     padding: 13px;
     border: 1px solid $color-border; 
   }
 }
-  
+
+
+

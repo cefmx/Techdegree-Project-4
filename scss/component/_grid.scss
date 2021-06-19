@@ -20,9 +20,9 @@
     border-radius: 5px;
   }
 
-  @for $col from 1 through 12 {
-    .theme.col-#{$col} {
-      background-color: map-get($col-color, $col);
+  @for $i from 1 through 12 {
+    .theme.col-#{$i} {
+      background-color: map-get($col-color, $i);
     }
   }
   

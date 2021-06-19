@@ -627,7 +627,7 @@ a {
 /*                   Images                      */
 /* ============================================= */
 /* line 5, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_images.scss */
-.img {
+img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -636,12 +636,12 @@ a {
 }
 
 /* line 9, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_images.scss */
-.img-avatar {
+img.img-avatar {
   max-height: 100%;
 }
 
 /* line 12, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_images.scss */
-.img-frame {
+img.img-frame {
   padding: 13px;
   border: 1px solid #ccc;
 }
@@ -651,109 +651,104 @@ a {
 /* ============================================= */
 @media (min-width: 768px) {
   /* line 9, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
+  nav {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  /* line 13, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
+  nav-link {
+    flex-basis: 100px;
+  }
+  /* line 18, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
   .container {
-    max-width: 1400px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    max-width: 1400px;
   }
-  /* line 16, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
+  /* line 23, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
   .centered {
     display: block;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 22, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
+  /* line 27, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
   .row {
     flex-direction: row;
   }
-  /* line 26, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
+  /* line 31, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
   [class^=col] {
     display: flex;
     justify-content: center;
     margin-top: 0;
     align-items: center;
   }
-  /* line 33, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
+  /* line 38, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
   [class^=col] + [class^=col] {
     margin-left: 10px;
   }
-  /* line 37, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
+  /* line 42, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
   .col-1 {
     flex-basis: 8.33%;
   }
-  /* line 41, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
+  /* line 46, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
   .col-2 {
     flex-basis: 16.67%;
   }
-  /* line 45, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
+  /* line 50, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
   .col-3 {
     flex-basis: 25.00%;
   }
-  /* line 49, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
+  /* line 54, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
   .col-4 {
     flex-basis: 33.33%;
   }
-  /* line 53, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
+  /* line 58, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
   .col-5 {
     flex-basis: 41.67%;
   }
-  /* line 57, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
+  /* line 62, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
   .col-6 {
     flex-basis: 50.00%;
   }
-  /* line 61, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
+  /* line 66, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
   .col-7 {
     flex-basis: 58.33%;
   }
-  /* line 65, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
+  /* line 70, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
   .col-8 {
     flex-basis: 66.67%;
   }
-  /* line 69, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
+  /* line 74, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
   .col-9 {
     flex-basis: 75.00%;
   }
-  /* line 73, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
+  /* line 78, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
   .col-10 {
     flex-basis: 83.33%;
   }
-  /* line 77, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
+  /* line 82, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
   .col-11 {
     flex-basis: 91.67%;
   }
-  /* line 81, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
+  /* line 86, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
   .col-12 {
     flex-basis: 100%;
   }
-}
-
-/* line 87, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
-.btn {
-  padding: 10px 30px;
-}
-
-/* line 91, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
-.btn + .btn {
-  margin-left: 10px;
-}
-
-/* line 95, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
-.logo {
-  margin-left: initial;
-  margin-right: initial;
-}
-
-/* line 100, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
-.nav {
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-}
-
-/* line 104, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
-.nav-link {
-  flex-basis: 100px;
+  /* line 91, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
+  .btn {
+    padding: 10px 30px;
+  }
+  /* line 95, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
+  .btn + .btn {
+    margin-left: 10px;
+  }
+  /* line 99, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_media-queries.scss */
+  .logo {
+    margin-left: initial;
+    margin-right: initial;
+  }
 }
 
 /* ============================================= */
@@ -781,19 +776,6 @@ a {
 .nav-link:hover {
   color: #fff;
   background-color: #58e1c1;
-}
-
-@media (min-width: 768px) {
-  /* line 5, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_navigation.scss */
-  .nav {
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-  }
-  /* line 26, ../../../../../../../../../../../../../Users/claire/Desktop/Software development courses/Code/Techdegree project 4 - Sass/techdegree-project-4/scss/component/_navigation.scss */
-  .nav-link {
-    flex-basis: 100px;
-  }
 }
 
 /*# sourceMappingURL=styles.css.map */

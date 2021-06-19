@@ -19,14 +19,6 @@
         background-color: $lightgreen;
       }
     }
-    @media (min-width: $break-w) {
-      flex-direction: row;
-      justify-content: flex-end;
-      align-items: center;
-      &-link {
-          flex-basis: 100px;
-      }
-    }
   }
  
   
