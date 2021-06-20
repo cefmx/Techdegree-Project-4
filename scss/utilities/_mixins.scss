@@ -2,15 +2,14 @@
 /*                  Mixins                       */
 /* ============================================= */
 
-
-// navigation
+// _navigation
 @mixin flex-col {
     display: flex;
     flex-direction: column;
 }
 
 
-// images
+// _images
 @mixin disp {
     display: block;
     margin-left: auto;

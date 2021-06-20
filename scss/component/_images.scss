@@ -5,7 +5,7 @@
 img {
   @include disp;
   max-width: $max; 
-  margin-top: 10px;
+  margin-top: $gutter;
   &.img-avatar {
     max-height: $max;
   }

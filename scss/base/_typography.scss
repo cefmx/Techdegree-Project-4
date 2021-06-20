@@ -4,7 +4,7 @@
 
 * {
     font-family: 'Lato', sans-serif;
-    color: #777;
+    color: $color-primary;
     box-sizing: border-box;
   }
   
@@ -23,22 +23,22 @@
   
   .headline-primary {
     color: $lightgreen;
-    margin-left: 10px;
+    margin-left: $gutter;
   }
   
   .headline-secondary {
-    font-weight: 300;
+    font-weight: $font-300;    ;
     color: $color-primary;
   }
   
   .link {
     color: $cyan;
-    font-weight: 700;
+    font-weight: $font-700;    ;
   }
   
   .blockquote {
     font-size: 1.5em;
-    font-weight: 300;
+    font-weight: $font-300;    ;
     font-style: italic;
     margin-left: 20px;
     padding-left: 20px;
